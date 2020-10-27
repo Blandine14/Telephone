@@ -1,0 +1,83 @@
+﻿<Window x:Class="Telephone.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Telephone"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="586.194" Width="511.512">
+    <DockPanel>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="File" FontSize="15" Foreground="Black" Height="24" Width="505">
+                <MenuItem x:Name="Form" Header="_Form"/>
+                <MenuItem x:Name="Catalogue" Header="_Catalogue"/>
+                <MenuItem x:Name="catalogue" Header="_Save"/>
+                <Separator />
+                <MenuItem x:Name="Exit" Header="_Exit"/>
+                <DocumentViewer/>
+            </MenuItem>
+        </Menu>
+
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="219*"/>
+                <ColumnDefinition Width="286*"/>
+            </Grid.ColumnDefinitions>
+
+            <Image Grid.ColumnSpan="2" Margin="-254,214,123.8,25.8" Source="img\1.jpg" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-58.531"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+
+            <Image Margin="0,0,-127.2,245.8" Source="img\texture-noire_1205-327.jpg" Stretch="Fill" Grid.ColumnSpan="2" RenderTransformOrigin="0.5,0.5">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-0.063"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+
+            <Label Content="Mobile repair service " HorizontalAlignment="Left" Margin="152,10,0,0" VerticalAlignment="Top" FontSize="20" Foreground="#52E234" FontWeight="Bold" Grid.ColumnSpan="2"/>
+            <Image Margin="69,10,72.2,453.8" Source="img\olga-assistant-vocal-modele-o4-1er-mois-d-abonnement.jpg" />
+            <Label Content="Mokohe" HorizontalAlignment="Left" Margin="152,36,0,0" VerticalAlignment="Top" FontSize="20" Height="32" Foreground="#ECF509" FontWeight="Bold" Grid.ColumnSpan="2"/>
+            <Label Content="About us" HorizontalAlignment="Left" Margin="137.993,117,0,0" VerticalAlignment="Top" FontSize="15" FontWeight="Medium" Foreground="#FFFF" Grid.Column="1"/>
+            <Label Content="Our Services" HorizontalAlignment="Left" Margin="7,125,0,0" VerticalAlignment="Top" FontSize="19" FontWeight="Medium" RenderTransformOrigin="0.5,0.5" Foreground="#ECF509" Height="35"></Label>
+            <RadioButton Content="Broken screen" HorizontalAlignment="Left" Margin="7,165,0,0" VerticalAlignment="Top" FontSize="13" Foreground="#FFFF"/>
+            <RadioButton Content="Water damage" HorizontalAlignment="Left" Margin="7,187,0,0" VerticalAlignment="Top" FontSize="13" Foreground="#FFFF" RenderTransformOrigin="0.503,3.844"/>
+            <RadioButton Content="Batteries" HorizontalAlignment="Left" Margin="7,209,0,0" VerticalAlignment="Top" FontSize="13" Foreground="#FFFF"/>
+            <RadioButton Content="Speakers" HorizontalAlignment="Left" Margin="7,231,0,0" VerticalAlignment="Top" FontSize="13" Foreground="#FFFF"/>
+            <RadioButton Content="Buttons" HorizontalAlignment="Left" Margin="7,253,0,0" VerticalAlignment="Top" FontSize="13" Foreground="#FFFF"/>
+            <Label Content="     on the spot repair !" HorizontalAlignment="Left" Margin="200,297,0,0" VerticalAlignment="Top" FontSize="2" FontStyle="Italic"  Width="251" Height="41" Grid.ColumnSpan="2" />
+            <Image Margin="217,403,9.8,20.8" Source="img\Image2.png" Grid.ColumnSpan="2"/>
+            <Label Content="Contact us" HorizontalAlignment="Left" Margin="22,344,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Medium" Height="35" Width="105" />
+            <Label Content="87 598 652" HorizontalAlignment="Left" Height="27" Margin="10,423,0,0" VerticalAlignment="Top" Width="91" FontWeight="Medium" FontSize="15"/>
+            <Label Content="truc@gmail.com" HorizontalAlignment="Left" Height="29" Margin="10,450,0,0" VerticalAlignment="Top" Width="137" FontWeight="Medium" FontSize="15"/>
+            <Label Content="www.truc.com" HorizontalAlignment="Left" Height="32" Margin="10,479,0,0" VerticalAlignment="Top" Width="117" FontWeight="Medium" FontSize="15"/>
+            <Image Margin="152,138,139.8,394.8" Source="img\Rectangle 3.png" Stretch="Fill" Grid.ColumnSpan="2"/>
+            <Image Margin="8,402,2.007,130.8" Source="img\Rectangle 5.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform ScaleY="-1"/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Image Margin="152,84,90.8,432.8" Source="img\Rectangle 3.png" Stretch="Fill" Grid.ColumnSpan="2"/>
+            <Image Margin="10,384,261.8,129.8" Source="img\Rectangle 5.png" Stretch="Fill" Grid.ColumnSpan="2"/>
+
+        </Grid>
+
+    </DockPanel>
+</Window>
