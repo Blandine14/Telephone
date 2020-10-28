@@ -142,7 +142,7 @@
     <Resource Include="img.cata\images %283%29.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="samsung-galaxy-j1-mini-prime-or.jpg" />
+    <Resource Include="img.cata\samsung-galaxy-j1-mini-prime-or.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="img.cata\Alcatel.jpg" />
@@ -155,6 +155,18 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="img.form\image.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Alcatel.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="alcatel2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="lenovo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="samsung-galaxy-j1-mini-prime-or.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
