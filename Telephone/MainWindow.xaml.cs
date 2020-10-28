@@ -24,5 +24,18 @@ namespace Telephone
         {
             InitializeComponent();
         }
+
+        private void Form_Click(object sender, RoutedEventArgs e)
+        {
+            Form formulaire = new Form();
+            formulaire.Show();
+
+        }
+
+        private void Catalogue_Click(object sender, RoutedEventArgs e)
+        {
+            catalogue cat = new catalogue();
+            cat.Show();
+        }
     }
 }

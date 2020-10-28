@@ -16,7 +16,7 @@
         <Image Margin="0,0,-0.4,598.4" Source="img.cata\images (3).jpg" Stretch="Fill" Grid.ColumnSpan="2"/>
         <Label Content="Collection Mokohe" HorizontalAlignment="Left" Margin="188.966,0,-47.4,0" VerticalAlignment="Top" FontSize="35" Foreground="#ECF509" FontWeight="Black" Height="62" Width="392" Grid.Column="1"/>
         <Image Margin="63.966,202,362.6,458.4" Source="samsung-galaxy-j1-mini-prime-or.jpg" Stretch="Fill" Grid.Column="1"/>
-        <TextBox HorizontalAlignment="Left" Height="67" Margin="34,217,0,0" TextWrapping="Wrap" Background="" FontSize="12" FontWeight="Medium" VerticalAlignment="Top" Width="85" Grid.ColumnSpan="2" TextChanged="TextBox_TextChanged" Text="Galaxy J1 Mini&#xD;&#xA;Ecran 4.3&quot;&#xD;&#xA;5 MP Flash&#xD;&#xA;Memorie 8GB"/>
+        <TextBox HorizontalAlignment="Left" Height="67" Margin="34,217,0,0" TextWrapping="Wrap" FontSize="12" FontWeight="Medium" VerticalAlignment="Top" Width="85" Grid.ColumnSpan="2" TextChanged="TextBox_TextChanged" Text="Galaxy J1 Mini&#xD;&#xA;Ecran 4.3&quot;&#xD;&#xA;5 MP Flash&#xD;&#xA;Memorie 8GB"/>
 
     </Grid>
 </Window>

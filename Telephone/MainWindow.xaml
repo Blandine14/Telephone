@@ -9,12 +9,11 @@
     <DockPanel>
         <Menu DockPanel.Dock="Top">
             <MenuItem Header="File" FontSize="15" Foreground="Black" Height="24" Width="505">
-                <MenuItem x:Name="Form" Header="_Form"/>
-                <MenuItem x:Name="Catalogue" Header="_Catalogue"/>
-                <MenuItem x:Name="catalogue" Header="_Save"/>
+                <MenuItem x:Name="Form" Header="_Form" Click="Form_Click"/>
+                <MenuItem x:Name="Catalogue" Header="_Catalogue" Click="Catalogue_Click"/>
                 <Separator />
                 <MenuItem x:Name="Exit" Header="_Exit"/>
-                <DocumentViewer/>
+                
             </MenuItem>
         </Menu>
 
