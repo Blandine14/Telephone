@@ -7,17 +7,20 @@
         mc:Ignorable="d"
         Title="Form" Height="800" Width="600">
     <Grid>
-        <Image Margin="0,219,-0.4,0.4" Source="images (2).jpg" Stretch="Fill"/>
+        <Image Margin="0,219,-0.4,0.4" Source="img.form\image.jpg" Stretch="Fill"/>
+
         <Image Margin="0,0,-0.4,551.4" Source="img.form\samsung-a-vendu-plus-de-400-000-telephones-pliables-en-trois-mois-1359275.jpg" Stretch="Fill"/>
         <Label Content="Mobile repair service form" HorizontalAlignment="Left" Margin="130,224,0,0" VerticalAlignment="Top" Width="348" FontWeight="Medium"  FontSize="28" Height="48"/>
         <Label Content="Please fill out the Form below and we will get back to you soon" HorizontalAlignment="Left" Margin="81,272,0,0" VerticalAlignment="Top" Width="442" FontSize="15"/>
         <TextBox HorizontalAlignment="Left" Height="25" Margin="10,307,0,0" TextWrapping="Wrap" Text="Last Name:" VerticalAlignment="Top" Width="574" TextChanged="TextBox_TextChanged"/>
-        <TextBox HorizontalAlignment="Left" Height="21" Margin="10,350,0,0" TextWrapping="Wrap" Text="First Name:" VerticalAlignment="Top" Width="574" TextChanged="TextBox_TextChanged"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="10,376,0,0" TextWrapping="Wrap" Text="E-mail:" VerticalAlignment="Top" Width="574" TextChanged="TextBox_TextChanged"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="10,415,0,0" TextWrapping="Wrap" Text="Model:" VerticalAlignment="Top" Width="574" TextChanged="TextBox_TextChanged"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="10,455,0,0" TextWrapping="Wrap" Text="Phone Number:" VerticalAlignment="Top" Width="574" TextChanged="TextBox_TextChanged"/>
-        <TextBox HorizontalAlignment="Left" Height="118" Margin="10,495,0,0" TextWrapping="Wrap" Text="Description:" VerticalAlignment="Top" Width="574" TextChanged="TextBox_TextChanged"/>
-        <TextBox HorizontalAlignment="Left" Height="27" Margin="10,618,0,0" TextWrapping="Wrap" Text="Date received:" VerticalAlignment="Top" Width="574" TextChanged="TextBox_TextChanged"/>
-        <TextBox HorizontalAlignment="Left" Height="61" Margin="10,665,0,0" TextWrapping="Wrap" Text="Upload Signatures:" VerticalAlignment="Top" Width="574" TextChanged="TextBox_TextChanged"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="10,348,0,0" TextWrapping="Wrap" Text="First Name:" VerticalAlignment="Top" Width="574" TextChanged="TextBox_TextChanged"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="10,387,0,0" TextWrapping="Wrap" Text="E-mail:" VerticalAlignment="Top" Width="574" TextChanged="TextBox_TextChanged"/>
+        <TextBox HorizontalAlignment="Left" Height="29" Margin="10,430,0,0" TextWrapping="Wrap" Text="Model:" VerticalAlignment="Top" Width="574" TextChanged="TextBox_TextChanged"/>
+        <TextBox HorizontalAlignment="Left" Height="28" Margin="10,475,0,0" TextWrapping="Wrap" Text="Phone Number:" VerticalAlignment="Top" Width="574" TextChanged="TextBox_TextChanged"/>
+        <TextBox HorizontalAlignment="Left" Height="118" Margin="10,508,0,0" TextWrapping="Wrap" Text="Description:" VerticalAlignment="Top" Width="574" TextChanged="TextBox_TextChanged"/>
+        <TextBox HorizontalAlignment="Left" Height="33" Margin="10,631,0,0" TextWrapping="Wrap" Text="Date received:" VerticalAlignment="Top" Width="574" TextChanged="TextBox_TextChanged"/>
+        <TextBox HorizontalAlignment="Left" Height="61" Margin="9,669,0,0" TextWrapping="Wrap" Text="Upload Signatures:" VerticalAlignment="Top" Width="574" TextChanged="TextBox_TextChanged"/>
+        <TextBox HorizontalAlignment="Left" Height="25" Margin="207,735,0,0" TextWrapping="Wrap" Text="Send Form" VerticalAlignment="Top" FontSize="15" FontWeight="Medium" Width="162" TextAlignment="Center" Background="#71DFEB"/>
+
     </Grid>
 </Window>

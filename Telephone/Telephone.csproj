@@ -55,6 +55,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="catalogue.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Form.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -66,6 +70,9 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="catalogue.xaml.cs">
+      <DependentUpon>catalogue.xaml</DependentUpon>
     </Compile>
     <Compile Include="Form.xaml.cs">
       <DependentUpon>Form.xaml</DependentUpon>
@@ -129,7 +136,25 @@
     <Resource Include="img.form\samsung-a-vendu-plus-de-400-000-telephones-pliables-en-trois-mois-1359275.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="images %282%29.jpg" />
+    <Resource Include="img.cata\images %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img.cata\images %283%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="samsung-galaxy-j1-mini-prime-or.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img.cata\Alcatel.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="telephone-lenovo-c2-noir_5832_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="sony-xperia-xa-ultra_e7931f7cc51090a8__450_400.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img.form\image.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
