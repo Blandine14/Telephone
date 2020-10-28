@@ -20,7 +20,7 @@
         <TextBox HorizontalAlignment="Left" Height="118" Margin="10,508,0,0" TextWrapping="Wrap" Text="Description:" VerticalAlignment="Top" Width="574" TextChanged="TextBox_TextChanged"/>
         <TextBox HorizontalAlignment="Left" Height="33" Margin="10,631,0,0" TextWrapping="Wrap" Text="Date received:" VerticalAlignment="Top" Width="574" TextChanged="TextBox_TextChanged"/>
         <TextBox HorizontalAlignment="Left" Height="61" Margin="9,669,0,0" TextWrapping="Wrap" Text="Upload Signatures:" VerticalAlignment="Top" Width="574" TextChanged="TextBox_TextChanged"/>
-        <Button  Content="Send Form" Height="25" Margin="221,735,210.6,0" VerticalAlignment="Top" FontSize="15" FontWeight="Medium" Width="162" HorizontalAlignment="Center" Background="#71DFEB"/>
+        <Button  Content="Send Form" Height="25" Margin="216,735,215.6,0" VerticalAlignment="Top" FontSize="15" FontWeight="Medium" Width="162" HorizontalAlignment="Center" Background="#71DFEB"/>
 
     </Grid>
 </Window>

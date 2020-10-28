@@ -1,0 +1,28 @@
+﻿<Window x:Class="Telephone.inscrip"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Telephone"
+        mc:Ignorable="d"
+        Title="inscript" Height="892.099" Width="686.682">
+    <Grid>
+        <Image Margin="0,145,0,0.4" Source="img.inscri\images ins.jpg" Stretch="Fill"/>
+        <Image Margin="0,0,537,719.4" Source="89856689-bouquet-floral-coloré-avec-des-feuilles-vertes-et-des-fleurs-de-plantes-tropicales-et-oiseau-isolé-sur-b.jpg" Stretch="Fill"/>
+        <Label Content="Mokohe" HorizontalAlignment="Left" FontSize="60" FontWeight="Black" Foreground="Yellow"  Margin="161,12,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5"/>
+        <Image Margin="494,77,39,420.4" Source="Alcatel.jpg" Stretch="Fill"/>
+        <TextBox HorizontalAlignment="Left" Height="31" Margin="23,200,0,0" TextWrapping="Wrap" FontSize="20" Text="first Name:" VerticalAlignment="Top" Width="360"/>
+        <TextBox HorizontalAlignment="Left" Height="31" Margin="23,281,0,0" TextWrapping="Wrap" FontSize="20" Text="Last Name:" VerticalAlignment="Top" Width="360"/>
+        <TextBox HorizontalAlignment="Left" Height="31" Margin="23,362,0,0" TextWrapping="Wrap" FontSize="20" Text="E-mail:" VerticalAlignment="Top" Width="360"/>
+        <Label Content="Payments method" FontSize="25" FontWeight="Medium" HorizontalAlignment="Left" Margin="23,455,0,0" VerticalAlignment="Top"/>
+        <RadioButton Content="Bank transfer" FontSize="21" HorizontalAlignment="Left" Margin="28,515,0,0" VerticalAlignment="Top" Height="29" Width="161"/>
+        <RadioButton Content="Card payment" FontSize="21"  HorizontalAlignment="Left" Margin="28,544,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.471,2.842"/>
+        <RadioButton Content="Payment on site" FontSize="22" HorizontalAlignment="Left" Margin="28,631,0,0" VerticalAlignment="Top" Width="183"/>
+        <Label Content="htpps://banque.com" FontSize="21" HorizontalAlignment="Left" Height="43" Margin="254,509,0,0" VerticalAlignment="Top" Width="204"/>
+        <Label Content="htpps://qsqsxq;com" FontSize="21" HorizontalAlignment="Left" Height="43" Margin="254,538,0,0" VerticalAlignment="Top" Width="204"/>
+        <Button Content="Send" FontSize="25" FontWeight="Medium" HorizontalAlignment="Left" Background="#71DFEB" Margin="202,761,0,0" VerticalAlignment="Top" Width="256" Height="41"/>
+
+
+
+    </Grid>
+</Window>

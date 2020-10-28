@@ -17,9 +17,9 @@ namespace Telephone
     /// <summary>
     /// Interaction logic for catalogue.xaml
     /// </summary>
-    public partial class catalogue : Window
+    public partial class inscrip : Window
     {
-        public catalogue()
+        public inscrip()
         {
             InitializeComponent();
         }
@@ -28,12 +28,6 @@ namespace Telephone
         {
 
         }
-
-        private void inscrip_Click(object sender, RoutedEventArgs e)
-        {
-            inscrip inscription  = new inscrip();
-            inscription.Show();
-
-        }
-    } 
+    }
 }
+ 

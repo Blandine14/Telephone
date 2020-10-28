@@ -55,6 +55,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="inscrip.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="catalogue.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -70,6 +74,10 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Inscrip.cs" />
+    <Compile Include="inscrip.xaml.cs">
+      <DependentUpon>inscrip.xaml</DependentUpon>
     </Compile>
     <Compile Include="catalogue.xaml.cs">
       <DependentUpon>catalogue.xaml</DependentUpon>
@@ -167,6 +175,12 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="samsung-galaxy-j1-mini-prime-or.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img.inscri\images ins.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="89856689-bouquet-floral-coloré-avec-des-feuilles-vertes-et-des-fleurs-de-plantes-tropicales-et-oiseau-isolé-sur-b.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

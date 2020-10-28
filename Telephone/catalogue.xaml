@@ -6,16 +6,35 @@
         xmlns:local="clr-namespace:Telephone"
         mc:Ignorable="d"
         Title="catalogue" Height="800" Width="600">
-    <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="10*"/>
-            <ColumnDefinition Width="89*"/>
-        </Grid.ColumnDefinitions>
-        <Image Margin="0,130,-0.4,0.4" Source="img.cata\images (2).jpg" Stretch="Fill" Grid.ColumnSpan="2"/>
-        <Image Margin="0,0,-0.4,598.4" Source="img.cata\images (3).jpg" Stretch="Fill" Grid.ColumnSpan="2"/>
-        <Label Content="Collection Mokohe" HorizontalAlignment="Left" Margin="188.966,0,-47.4,0" VerticalAlignment="Top" FontSize="35" Foreground="#ECF509" FontWeight="Black" Height="62" Width="392" Grid.Column="1"/>
-        <Image Margin="63.966,202,362.6,458.4" Source="samsung-galaxy-j1-mini-prime-or.jpg" Stretch="Fill" Grid.Column="1"/>
-        <TextBox HorizontalAlignment="Left" Height="67" Margin="34,217,0,0" TextWrapping="Wrap" Background="" FontSize="12" FontWeight="Medium" VerticalAlignment="Top" Width="85" Grid.ColumnSpan="2" TextChanged="TextBox_TextChanged" Text="Galaxy J1 Mini&#xD;&#xA;Ecran 4.3&quot;&#xD;&#xA;5 MP Flash&#xD;&#xA;Memorie 8GB"/>
+    <DockPanel>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="Catalogue" FontSize="15" Foreground="Black" Height="24" Width="505">
+                <MenuItem x:Name="inscrip" Header="_inscrip"  Click="inscrip_Click"/>
+                <Separator />
+                <MenuItem x:Name="Exit" Header="_Exit"/>
 
-    </Grid>
+            </MenuItem>
+        </Menu>
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="60"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Image Margin="0,130,-0.4,0.4" Source="img.cata\images (2).jpg" Stretch="Fill" Grid.ColumnSpan="2"/>
+            <Image Margin="0,0,-0.4,598.4" Source="img.cata\images (3).jpg" Stretch="Fill" Grid.ColumnSpan="2"/>
+            <Label Content="Collection Mokohe" HorizontalAlignment="Left" Margin="188.966,0,-47.4,0" VerticalAlignment="Top" FontSize="35" Foreground="#ECF509" FontWeight="Black" Height="62" Width="392" Grid.Column="1"/>
+            <Image Grid.Column="1" Margin="82,187,362.6,404.4" Source="samsung-galaxy-j1-mini-prime-or.jpg" Stretch="Fill"/>
+            <TextBlock HorizontalAlignment="Left" Margin="0,218,0,0" TextWrapping="Wrap" FontWeight="Medium" FontSize="13" VerticalAlignment="Top" Height="91" Width="95" Grid.Column="1"><Run Text="Galaxy J1 Mini"/><LineBreak/><Run Text="Ecran 4.3&quot;"/><LineBreak/><Run Text="5MP Flash"/><LineBreak/><Run Text="Memorie 8GB"/><LineBreak/><Run Text="15000F"/></TextBlock>
+            <Image Grid.Column="1" Margin="391,187,58.6,404.4" Source="lenovo.jpg" Stretch="Fill"/>
+            <TextBlock HorizontalAlignment="Left" Margin="296,218,0,0" TextWrapping="Wrap" FontWeight="Medium" FontSize="13" VerticalAlignment="Top" Height="91" Width="95" Grid.Column="1"><Run Text="Lenovo C2"/><LineBreak/><Run Text="Ecran 5&quot;"/><LineBreak/><Run Text="APN 8MP Flash"/><LineBreak/><Run Text="Memorie 8GB"/><LineBreak/><Run Text="12000F"/></TextBlock>
+            <Image Grid.Column="1" Margin="72,451,372.6,113.4" Source="Alcatel.jpg" Stretch="Fill"/>
+            <TextBlock HorizontalAlignment="Left" Margin="32,511,0,0" TextWrapping="Wrap" FontWeight="Medium" FontSize="13" VerticalAlignment="Top" Height="95" Width="95" Grid.ColumnSpan="2"><Run Text="Alcatel POP4"/><LineBreak/><Run Text="Ecran 5&quot;"/><LineBreak/><Run Text="APN 8MP Flash"/><LineBreak/><Run Text="Memorie 8GB"/><LineBreak/><Run Text="14000"/><Run Text="F"/></TextBlock>
+            <Image Grid.Column="1" Margin="391,451,32.6,113.4" Source="sony-xperia-xa-ultra_e7931f7cc51090a8__450_400.jpg" Stretch="Fill"/>
+            <TextBlock HorizontalAlignment="Left" Margin="296,511,0,0" TextWrapping="Wrap" FontWeight="Medium" FontSize="13" VerticalAlignment="Top" Height="95" Width="95" Grid.Column="1"><Run Text="Sony XA"/><LineBreak/><Run Text="Ecran 5&quot;"/><LineBreak/><Run Text="13MP Flash"/><LineBreak/><Run Text="Memorie 16GB"/><LineBreak/><Run Text="19000F"/></TextBlock>
+
+
+
+        </Grid>
+    </DockPanel>
 </Window>
